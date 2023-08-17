@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872876BB2A7D301500FCC267 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872876BA2A7D301500FCC267 /* SwiftUIView.swift */; };
+		872876BE2A7D32F300FCC267 /* SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872876BD2A7D32F300FCC267 /* SpecialEffects.swift */; };
 		8763708E2A7CF1100096C11A /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763708D2A7CF1100096C11A /* DrawingApp.swift */; };
-		876370902A7CF1100096C11A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763708F2A7CF1100096C11A /* ContentView.swift */; };
+		876370902A7CF1100096C11A /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8763708F2A7CF1100096C11A /* FlowerView.swift */; };
 		876370922A7CF1110096C11A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876370912A7CF1110096C11A /* Assets.xcassets */; };
 		876370952A7CF1110096C11A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876370942A7CF1110096C11A /* Preview Assets.xcassets */; };
+		877096522A8E5A8300940185 /* AnimatableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877096512A8E5A8300940185 /* AnimatableData.swift */; };
+		877096542A8E5CEF00940185 /* ANimatablePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877096532A8E5CEF00940185 /* ANimatablePair.swift */; };
+		877096562A8E5FED00940185 /* Spirograph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877096552A8E5FED00940185 /* Spirograph.swift */; };
+		877096592A8E64FA00940185 /* ArrowChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877096582A8E64FA00940185 /* ArrowChallenge.swift */; };
+		8770965B2A8E670900940185 /* ChallengeThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8770965A2A8E670900940185 /* ChallengeThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872876BA2A7D301500FCC267 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		872876BD2A7D32F300FCC267 /* SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEffects.swift; sourceTree = "<group>"; };
 		8763708A2A7CF1100096C11A /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8763708D2A7CF1100096C11A /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
-		8763708F2A7CF1100096C11A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8763708F2A7CF1100096C11A /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
 		876370912A7CF1110096C11A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876370942A7CF1110096C11A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		877096512A8E5A8300940185 /* AnimatableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableData.swift; sourceTree = "<group>"; };
+		877096532A8E5CEF00940185 /* ANimatablePair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANimatablePair.swift; sourceTree = "<group>"; };
+		877096552A8E5FED00940185 /* Spirograph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spirograph.swift; sourceTree = "<group>"; };
+		877096582A8E64FA00940185 /* ArrowChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowChallenge.swift; sourceTree = "<group>"; };
+		8770965A2A8E670900940185 /* ChallengeThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		872876BC2A7D32DC00FCC267 /* Day45 */ = {
+			isa = PBXGroup;
+			children = (
+				872876BD2A7D32F300FCC267 /* SpecialEffects.swift */,
+				877096512A8E5A8300940185 /* AnimatableData.swift */,
+				877096532A8E5CEF00940185 /* ANimatablePair.swift */,
+				877096552A8E5FED00940185 /* Spirograph.swift */,
+			);
+			path = Day45;
+			sourceTree = "<group>";
+		};
 		876370812A7CF10F0096C11A = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +77,10 @@
 			isa = PBXGroup;
 			children = (
 				8763708D2A7CF1100096C11A /* DrawingApp.swift */,
-				8763708F2A7CF1100096C11A /* ContentView.swift */,
+				877096572A8E646E00940185 /* Day46 */,
+				8763708F2A7CF1100096C11A /* FlowerView.swift */,
+				872876BA2A7D301500FCC267 /* SwiftUIView.swift */,
+				872876BC2A7D32DC00FCC267 /* Day45 */,
 				876370912A7CF1110096C11A /* Assets.xcassets */,
 				876370932A7CF1110096C11A /* Preview Content */,
 			);
@@ -65,6 +93,15 @@
 				876370942A7CF1110096C11A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		877096572A8E646E00940185 /* Day46 */ = {
+			isa = PBXGroup;
+			children = (
+				877096582A8E64FA00940185 /* ArrowChallenge.swift */,
+				8770965A2A8E670900940185 /* ChallengeThree.swift */,
+			);
+			path = Day46;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				876370902A7CF1100096C11A /* ContentView.swift in Sources */,
+				872876BE2A7D32F300FCC267 /* SpecialEffects.swift in Sources */,
+				876370902A7CF1100096C11A /* FlowerView.swift in Sources */,
 				8763708E2A7CF1100096C11A /* DrawingApp.swift in Sources */,
+				877096562A8E5FED00940185 /* Spirograph.swift in Sources */,
+				8770965B2A8E670900940185 /* ChallengeThree.swift in Sources */,
+				872876BB2A7D301500FCC267 /* SwiftUIView.swift in Sources */,
+				877096592A8E64FA00940185 /* ArrowChallenge.swift in Sources */,
+				877096522A8E5A8300940185 /* AnimatableData.swift in Sources */,
+				877096542A8E5CEF00940185 /* ANimatablePair.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
